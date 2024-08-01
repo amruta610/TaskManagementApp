@@ -1,0 +1,23 @@
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-4blbhy sitelibdir\=./.gem.20240722-24600-4blbhy clean
+bash.exe: warning: could not find /tmp, please create!
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-4blbhy sitelibdir\=./.gem.20240722-24600-4blbhy
+generating websocket_mask-x64-mingw-ucrt.def
+bash.exe: warning: could not find /tmp, please create!
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-4blbhy sitelibdir\=./.gem.20240722-24600-4blbhy install
+bash.exe: warning: could not find /tmp, please create!
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240722-24600-4blbhy
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-4blbhy sitelibdir\=./.gem.20240722-24600-4blbhy clean
+bash.exe: warning: could not find /tmp, please create!

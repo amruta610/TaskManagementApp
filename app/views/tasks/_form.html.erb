@@ -1,0 +1,59 @@
+<%= form_with(model: task, local: true) do |form| %>
+  <% if task.errors.any? %>
+    <div class="alert alert-danger">
+      <h4><%= pluralize(task.errors.count, "error") %> prohibited this task from being saved:</h4>
+      <ul>
+        <% task.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="container mt-4">
+
+    <!-- Task Name -->
+    <div class="col-md-12 mb-3">
+      <%= form.label :name, class: "form-label" %>
+      <%= form.text_field :name, class: "form-control", placeholder: "Task Name" %>
+    </div>
+
+    <!-- Category -->
+    <div class="col-md-12 mb-3">
+      <%= form.label :category, class: "form-label" %>
+      <select name="task[category]" id="exampleFormControlSelect1" class="custom-select">
+        <option value="" <%= 'selected' if task.category.blank? %>>Select Category</option>
+        <option value="personal" <%= 'selected' if task.category == 'personal' %>>Personal</option>
+        <option value="work" <%= 'selected' if task.category == 'work' %>>Work</option>
+        <option value="shopping" <%= 'selected' if task.category == 'shopping' %>>Shopping</option>
+      </select>
+    </div>
+
+    <!-- Priority -->
+    <div class="col-md-12 mb-3">
+      <%= form.label :priority, class: "form-label" %>
+      <select name="task[priority]" id="exampleFormControlSelect2" class="custom-select">
+        <option value="" <%= 'selected' if task.priority.blank? %>>Select Priority</option>
+        <option value="High" <%= 'selected' if task.priority == 'High' %>>High</option>
+        <option value="Medium" <%= 'selected' if task.priority == 'Medium' %>>Medium</option>
+        <option value="Low" <%= 'selected' if task.priority == 'Low' %>>Low</option>
+      </select>
+    </div>
+
+    <!-- Status -->
+    <div class="col-md-12 mb-3">
+      <%= form.label :status, class: "form-label" %>
+      <select name="task[status]" id="exampleFormControlSelect3" class="custom-select">
+        <option value="" <%= 'selected' if task.status.blank? %>>Select Status</option>
+        <option value="complete" <%= 'selected' if task.status == 'complete' %>>Complete</option>
+        <option value="incomplete" <%= 'selected' if task.status == 'incomplete' %>>Incomplete</option>
+      </select>
+    </div>
+
+    <!-- Submit Button -->
+    <div class="col-md-12 mb-3">
+      <%= form.submit 'Save Task', class: "btn btn-secondary" %>
+    </div>
+
+  </div>
+<% end %>

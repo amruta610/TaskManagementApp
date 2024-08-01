@@ -1,0 +1,26 @@
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+checking for fdatasync() in unistd.h... no
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-mqjkm5 sitelibdir\=./.gem.20240722-24600-mqjkm5 clean
+bash.exe: warning: could not find /tmp, please create!
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-mqjkm5 sitelibdir\=./.gem.20240722-24600-mqjkm5
+generating bootsnap-x64-mingw-ucrt.def
+bash.exe: warning: could not find /tmp, please create!
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-mqjkm5 sitelibdir\=./.gem.20240722-24600-mqjkm5 install
+bash.exe: warning: could not find /tmp, please create!
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240722-24600-mqjkm5/bootsnap
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-mqjkm5 sitelibdir\=./.gem.20240722-24600-mqjkm5 clean
+bash.exe: warning: could not find /tmp, please create!

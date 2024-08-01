@@ -1,0 +1,18 @@
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.3/ext/nio4r
+C:/Ruby32-x64/bin/ruby.exe extconf.rb
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.3/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-1eqi7z sitelibdir\=./.gem.20240722-24600-1eqi7z clean
+make: *** No rule to make target 'clean'.  Stop.
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.3/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-1eqi7z sitelibdir\=./.gem.20240722-24600-1eqi7z
+make: Nothing to be done for 'all'.
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.3/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-1eqi7z sitelibdir\=./.gem.20240722-24600-1eqi7z install
+make: Nothing to be done for 'install'.
+
+current directory: C:/assignment/TaskManagement_app/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.3/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240722-24600-1eqi7z sitelibdir\=./.gem.20240722-24600-1eqi7z clean
+make: *** No rule to make target 'clean'.  Stop.

@@ -1,0 +1,6 @@
+projectKey=todolist-app-rails
+serverUrl=http://localhost:9000
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:9000/dashboard?id=todolist-app-rails
+ceTaskId=6d717c78-e87a-4452-ade2-9820fd6b8a97
+ceTaskUrl=http://localhost:9000/api/ce/task?id=6d717c78-e87a-4452-ade2-9820fd6b8a97

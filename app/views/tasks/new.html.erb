@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-md-8 offset-md-2 text-center">
+      <h1>Add New Task</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <%= render "form", task: @task %>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-md-8 offset-md-2 text-center">
+      <%= link_to "Back to tasks", tasks_path, class: "btn btn-secondary" %>
+    </div>
+  </div>
+</div>

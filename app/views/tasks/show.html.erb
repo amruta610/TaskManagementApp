@@ -1,0 +1,28 @@
+<div class="jumbotron">
+  <h1 class="display-4"><%= @task.name %></h1>
+  <p class="lead">
+    <%= @task.category %> | <%= @task.priority %> | <%= @task.status %>
+  </p>
+
+  <!-- Flag for High Priority -->
+  <% if @task.priority == "High" %>
+    <div class="alert alert-danger" role="alert">
+      <i class="fas fa-flag"></i> High Priority
+    </div>
+  <% elsif @task.priority == "Medium" %>
+    <!-- Flag for Medium Priority -->
+    <div class="alert alert-warning" role="alert">
+      <i class="fas fa-flag"></i> Medium Priority
+    </div>
+  <% elsif @task.priority == "Low" %>
+    <!-- Flag for Low Priority -->
+    <div class="alert alert-success" role="alert">
+      <i class="fas fa-flag"></i> Low Priority
+    </div>
+  <% end %>
+
+ 
+
+  <%= link_to "Edit", edit_task_path(@task), class: "btn btn-secondary" %>
+  <%= link_to "Back", tasks_path, class: "btn btn-secondary" %>
+</div>
